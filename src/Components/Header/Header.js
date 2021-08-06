@@ -5,6 +5,9 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavItemBtn,
+  NavBtnLink,
+  Button
 } from "./Header.elements";
 
 export default function Header() {
@@ -15,16 +18,16 @@ export default function Header() {
 
         <NavMenu>
           <NavItem>
-            <NavLinks>Home</NavLinks>
+            <NavLinks to="/">Home</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks>Services</NavLinks>
+            <NavLinks to="/">Services</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks>About</NavLinks>
+            <NavLinks to="/">About</NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks>Plans</NavLinks>
+            <NavLinks to="/">Plans</NavLinks>
           </NavItem>
         </NavMenu>
       </NavbarContainer>
