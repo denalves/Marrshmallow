@@ -24,7 +24,7 @@ export const InfoColumn = styled.div`
 
 export const TextWrapper = styled.div`
     max-width : 540px;
-    padding-bottom: 60px;
+    padding-top: 80px;
 `;
 
 export const Titulo = styled.h1`
@@ -57,6 +57,7 @@ export const ImageWrapper = styled.div`
     max-width: 555px;
     display: flex;
     justify-content: flex-end;
+    padding-top: 20px;
 `;
 
 
