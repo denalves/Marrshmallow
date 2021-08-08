@@ -36,7 +36,7 @@ export default function Header() {
       <NavbarContainer>
         <NavLogo to="/" onClick={closeMobileMenu} >Marshmallow.</NavLogo>
         <MobileIcon onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {click ? <FaTimes /> : <FaBars style={{color: "#fff"}} />}
             </MobileIcon>
         <NavMenu onClick={handleClick} click={click}>
           <NavItem>

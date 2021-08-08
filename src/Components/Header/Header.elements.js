@@ -8,7 +8,7 @@ export const Nav = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -66,6 +66,11 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   height: 80px;
   border-bottom: 2px solid transparent;
+
+  &:hover {
+    border-bottom: 2px solid #fff;
+    color: red;
+  }
 
   @media screen and (max-width: 960px) {
     width: 100%;

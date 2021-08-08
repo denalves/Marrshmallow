@@ -35,6 +35,7 @@ export const TextWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
     padding-bottom: 65px;
+    text-align: center;
   }
 `;
 
