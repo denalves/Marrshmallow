@@ -20,11 +20,22 @@ export const InfoColumn = styled.div`
   margin-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const TextWrapper = styled.div`
     max-width : 540px;
     padding-top: 80px;
+
+    @media screen and (max-width: 768px) {
+    padding-bottom: 65px;
+  }
 `;
 
 export const Titulo = styled.h1`
