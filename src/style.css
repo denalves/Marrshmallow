@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@ html,body, #root{
 }
 
 body{
-    font: 14px 'Roboto', sans-serif;
+    font: 14px 'Rubik', sans-serif;
     background-color: #fff;
 }
 

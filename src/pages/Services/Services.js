@@ -22,40 +22,39 @@ const Services = (props) => {
       <ContainerServices>
         <Subtitulo>We´re offering</Subtitulo>
         <Titulo>Creative Digital Agency</Titulo>
-        </ContainerServices>
-        <Wrapper>
-          <Card
-            imagem={IntegratedMarketing}
-            titulo="Integrated Marketing"
-            descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
-          />
-          <Card
-            imagem={DesignDevelopment}
-            titulo="Integrated Marketing"
-            descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
-          />
-          <Card
-            imagem={DigitalStrategy}
-            titulo="Integrated Marketing"
-            descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
-          />
-          <Card
-            imagem={DigitalMarketing}
-            titulo="Integrated Marketing"
-            descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
-          />
-          <Card
-            imagem={GrowthStrategy}
-            titulo="Integrated Marketing"
-            descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
-          />
-          <Card
-            imagem={SavingStrategy}
-            titulo="Integrated Marketing"
-            descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
-          />
-        </Wrapper>
-     
+      </ContainerServices>
+      <Wrapper>
+        <Card
+          imagem={IntegratedMarketing}
+          titulo="Integrated Marketing"
+          descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
+        />
+        <Card
+          imagem={DesignDevelopment}
+          titulo="Integrated Marketing"
+          descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
+        />
+        <Card
+          imagem={DigitalStrategy}
+          titulo="Integrated Marketing"
+          descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
+        />
+        <Card
+          imagem={DigitalMarketing}
+          titulo="Integrated Marketing"
+          descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
+        />
+        <Card
+          imagem={GrowthStrategy}
+          titulo="Integrated Marketing"
+          descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
+        />
+        <Card
+          imagem={SavingStrategy}
+          titulo="Integrated Marketing"
+          descricao="Lorem ipsum dolor sit amet, pretium pretium tempor.Lorem ipsum"
+        />
+      </Wrapper>
     </Cont>
   );
 };
