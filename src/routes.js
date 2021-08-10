@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import Services from "./pages/Services/Services";
 
 import React from "react";
+import About from "./pages/About/About";
 
 const Routes = () => {
   return (
@@ -14,6 +15,7 @@ const Routes = () => {
         <Route exact path="/" component={Home} />
       </Switch>
       <Services/>
+      <About/>
     </BrowserRouter>
   );
 };
