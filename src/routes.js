@@ -6,6 +6,7 @@ import Services from "./pages/Services/Services";
 
 import React from "react";
 import About from "./pages/About/About";
+import Plans from "./pages/Plans/Plans";
 
 const Routes = () => {
   return (
@@ -16,6 +17,7 @@ const Routes = () => {
       </Switch>
       <Services/>
       <About/>
+      <Plans/>
     </BrowserRouter>
   );
 };

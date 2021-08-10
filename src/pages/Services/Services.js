@@ -5,8 +5,7 @@ import {
   Wrapper,
   Subtitulo,
   Titulo,
-  CardTitle,
-  CardDescription,
+
 } from "./Services.elements";
 import Card from "../../Components/Card/Card";
 import IntegratedMarketing from "../../assets/integrated-marketing.svg";
