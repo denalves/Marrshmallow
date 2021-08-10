@@ -7,24 +7,27 @@ import {
   Text,
   Imagem,
   Img,
-  ImgTick
+  ImgTick,
+  TextWrapper
 } from "./About.elements";
-import Idea from "../../assets/idea.png";
+
 import Tick from "../../assets/tick.png";
 
 const About = () => {
   return (
     <ContainerAbout>
       <Wrapper>
+        <TextWrapper>
         <Titulo>Discover New Idea With Us!</Titulo>
         <Subtitulo>Imagination will take us everywhere</Subtitulo>
         <Text><ImgTick src={Tick} />Lorem ipsum dolor sit amet, pretium pretium</Text>
         <Text><ImgTick src={Tick} />Lorem ipsum dolor sit amet, pretium pretium</Text>
         <Text><ImgTick src={Tick} />Lorem ipsum dolor sit amet, pretium pretium</Text>
+        </TextWrapper>
       </Wrapper>
       <Wrapper>
         <Imagem>
-          <Img src={Idea} />
+          <Img/>
         </Imagem>
       </Wrapper>
     </ContainerAbout>
